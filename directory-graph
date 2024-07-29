@@ -1,0 +1,1414 @@
+// Directory Structure
+digraph {
+	"Social-Media-Sentiment-Analysis" [label="Social-Media-Sentiment-Analysis"]
+	Dataset
+	"Social-Media-Sentiment-Analysis" -> Dataset
+	English
+	Dataset -> English
+	"V-oc"
+	English -> "V-oc"
+	"2018-Valence-oc-En-train.txt"
+	"V-oc" -> "2018-Valence-oc-En-train.txt"
+	"2018-Valence-oc-En-dev.txt"
+	"V-oc" -> "2018-Valence-oc-En-dev.txt"
+	"2018-Valence-oc-En-test-gold.txt"
+	"V-oc" -> "2018-Valence-oc-En-test-gold.txt"
+	"V-reg"
+	English -> "V-reg"
+	"2018-Valence-reg-En-test-gold.txt"
+	"V-reg" -> "2018-Valence-reg-En-test-gold.txt"
+	"2018-Valence-reg-En-train.txt"
+	"V-reg" -> "2018-Valence-reg-En-train.txt"
+	"2018-Valence-reg-En-dev.txt"
+	"V-reg" -> "2018-Valence-reg-En-dev.txt"
+	"EI-oc"
+	English -> "EI-oc"
+	development
+	"EI-oc" -> development
+	"2018-EI-oc-En-fear-dev.txt"
+	development -> "2018-EI-oc-En-fear-dev.txt"
+	"2018-EI-oc-En-joy-dev.txt"
+	development -> "2018-EI-oc-En-joy-dev.txt"
+	"2018-EI-oc-En-anger-dev.txt"
+	development -> "2018-EI-oc-En-anger-dev.txt"
+	"2018-EI-oc-En-sadness-dev.txt"
+	development -> "2018-EI-oc-En-sadness-dev.txt"
+	training
+	"EI-oc" -> training
+	"EI-oc-En-fear-train.txt"
+	training -> "EI-oc-En-fear-train.txt"
+	"EI-oc-En-joy-train.txt"
+	training -> "EI-oc-En-joy-train.txt"
+	"EI-oc-En-sadness-train.txt"
+	training -> "EI-oc-En-sadness-train.txt"
+	"EI-oc-En-anger-train.txt"
+	training -> "EI-oc-En-anger-train.txt"
+	"test-gold"
+	"EI-oc" -> "test-gold"
+	"2018-EI-oc-En-sadness-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-En-sadness-test-gold.txt"
+	"2018-EI-oc-En-fear-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-En-fear-test-gold.txt"
+	"2018-EI-oc-En-anger-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-En-anger-test-gold.txt"
+	"2018-EI-oc-En-joy-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-En-joy-test-gold.txt"
+	"E-c"
+	English -> "E-c"
+	"2018-E-c-En-train.txt"
+	"E-c" -> "2018-E-c-En-train.txt"
+	"2018-E-c-En-test-gold.txt"
+	"E-c" -> "2018-E-c-En-test-gold.txt"
+	"2018-E-c-En-dev.txt"
+	"E-c" -> "2018-E-c-En-dev.txt"
+	"EI-reg"
+	English -> "EI-reg"
+	development
+	"EI-reg" -> development
+	"2018-EI-reg-En-joy-dev.txt"
+	development -> "2018-EI-reg-En-joy-dev.txt"
+	"2018-EI-reg-En-fear-dev.txt"
+	development -> "2018-EI-reg-En-fear-dev.txt"
+	"2018-EI-reg-En-sadness-dev.txt"
+	development -> "2018-EI-reg-En-sadness-dev.txt"
+	"2018-EI-reg-En-anger-dev.txt"
+	development -> "2018-EI-reg-En-anger-dev.txt"
+	training
+	"EI-reg" -> training
+	"EI-reg-En-anger-train.txt"
+	training -> "EI-reg-En-anger-train.txt"
+	"EI-reg-En-joy-train.txt"
+	training -> "EI-reg-En-joy-train.txt"
+	"EI-reg-En-sadness-train.txt"
+	training -> "EI-reg-En-sadness-train.txt"
+	"EI-reg-En-fear-train.txt"
+	training -> "EI-reg-En-fear-train.txt"
+	"test-gold"
+	"EI-reg" -> "test-gold"
+	"2018-EI-reg-En-anger-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-En-anger-test-gold.txt"
+	"2018-EI-reg-En-sadness-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-En-sadness-test-gold.txt"
+	"2018-EI-reg-En-fear-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-En-fear-test-gold.txt"
+	"2018-EI-reg-En-joy-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-En-joy-test-gold.txt"
+	".DS_Store"
+	English -> ".DS_Store"
+	Spanish
+	Dataset -> Spanish
+	"V-oc"
+	Spanish -> "V-oc"
+	"2018-Valence-oc-Es-dev.txt"
+	"V-oc" -> "2018-Valence-oc-Es-dev.txt"
+	"2018-Valence-oc-Es-train.txt"
+	"V-oc" -> "2018-Valence-oc-Es-train.txt"
+	"2018-Valence-oc-Es-test-gold.txt"
+	"V-oc" -> "2018-Valence-oc-Es-test-gold.txt"
+	"V-reg"
+	Spanish -> "V-reg"
+	"2018-Valence-reg-Es-dev.txt"
+	"V-reg" -> "2018-Valence-reg-Es-dev.txt"
+	"2018-Valence-reg-Es-test-gold.txt"
+	"V-reg" -> "2018-Valence-reg-Es-test-gold.txt"
+	"2018-Valence-reg-Es-train.txt"
+	"V-reg" -> "2018-Valence-reg-Es-train.txt"
+	"EI-oc"
+	Spanish -> "EI-oc"
+	development
+	"EI-oc" -> development
+	"2018-EI-oc-Es-anger-dev.txt"
+	development -> "2018-EI-oc-Es-anger-dev.txt"
+	"2018-EI-oc-Es-sadness-dev.txt"
+	development -> "2018-EI-oc-Es-sadness-dev.txt"
+	"2018-EI-oc-Es-fear-dev.txt"
+	development -> "2018-EI-oc-Es-fear-dev.txt"
+	"2018-EI-oc-Es-joy-dev.txt"
+	development -> "2018-EI-oc-Es-joy-dev.txt"
+	training
+	"EI-oc" -> training
+	"2018-EI-oc-Es-sadness-train.txt"
+	training -> "2018-EI-oc-Es-sadness-train.txt"
+	"2018-EI-oc-Es-fear-train.txt"
+	training -> "2018-EI-oc-Es-fear-train.txt"
+	"2018-EI-oc-Es-joy-train.txt"
+	training -> "2018-EI-oc-Es-joy-train.txt"
+	"2018-EI-oc-Es-anger-train.txt"
+	training -> "2018-EI-oc-Es-anger-train.txt"
+	"test-gold"
+	"EI-oc" -> "test-gold"
+	"2018-EI-oc-Es-sadness-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-Es-sadness-test-gold.txt"
+	"2018-EI-oc-Es-fear-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-Es-fear-test-gold.txt"
+	"2018-EI-oc-Es-joy-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-Es-joy-test-gold.txt"
+	"2018-EI-oc-Es-anger-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-Es-anger-test-gold.txt"
+	"E-c"
+	Spanish -> "E-c"
+	"2018-E-c-Es-test-gold.txt"
+	"E-c" -> "2018-E-c-Es-test-gold.txt"
+	"2018-E-c-Es-dev.txt"
+	"E-c" -> "2018-E-c-Es-dev.txt"
+	"2018-E-c-Es-train.txt"
+	"E-c" -> "2018-E-c-Es-train.txt"
+	"EI-reg"
+	Spanish -> "EI-reg"
+	development
+	"EI-reg" -> development
+	"2018-EI-reg-Es-fear-dev.txt"
+	development -> "2018-EI-reg-Es-fear-dev.txt"
+	"2018-EI-reg-Es-anger-dev.txt"
+	development -> "2018-EI-reg-Es-anger-dev.txt"
+	"2018-EI-reg-Es-joy-dev.txt"
+	development -> "2018-EI-reg-Es-joy-dev.txt"
+	"2018-EI-reg-Es-sadness-dev.txt"
+	development -> "2018-EI-reg-Es-sadness-dev.txt"
+	training
+	"EI-reg" -> training
+	"2018-EI-reg-Es-joy-train.txt"
+	training -> "2018-EI-reg-Es-joy-train.txt"
+	"2018-EI-reg-Es-sadness-train.txt"
+	training -> "2018-EI-reg-Es-sadness-train.txt"
+	"2018-EI-reg-Es-fear-train.txt"
+	training -> "2018-EI-reg-Es-fear-train.txt"
+	"2018-EI-reg-Es-anger-train.txt"
+	training -> "2018-EI-reg-Es-anger-train.txt"
+	"test-gold"
+	"EI-reg" -> "test-gold"
+	"2018-EI-reg-Es-anger-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-Es-anger-test-gold.txt"
+	"2018-EI-reg-Es-fear-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-Es-fear-test-gold.txt"
+	"2018-EI-reg-Es-joy-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-Es-joy-test-gold.txt"
+	"2018-EI-reg-Es-sadness-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-Es-sadness-test-gold.txt"
+	".DS_Store"
+	Spanish -> ".DS_Store"
+	Arabic
+	Dataset -> Arabic
+	"V-oc"
+	Arabic -> "V-oc"
+	"2018-Valence-oc-Ar-train.txt"
+	"V-oc" -> "2018-Valence-oc-Ar-train.txt"
+	"2018-Valence-oc-Ar-test-gold.txt"
+	"V-oc" -> "2018-Valence-oc-Ar-test-gold.txt"
+	"2018-Valence-oc-Ar-dev.txt"
+	"V-oc" -> "2018-Valence-oc-Ar-dev.txt"
+	"V-reg"
+	Arabic -> "V-reg"
+	"2018-Valence-reg-Ar-test-gold.txt"
+	"V-reg" -> "2018-Valence-reg-Ar-test-gold.txt"
+	"2018-Valence-reg-Ar-dev.txt"
+	"V-reg" -> "2018-Valence-reg-Ar-dev.txt"
+	"2018-Valence-reg-Ar-train.txt"
+	"V-reg" -> "2018-Valence-reg-Ar-train.txt"
+	"EI-oc"
+	Arabic -> "EI-oc"
+	development
+	"EI-oc" -> development
+	"2018-EI-oc-Ar-sadness-dev.txt"
+	development -> "2018-EI-oc-Ar-sadness-dev.txt"
+	"2018-EI-oc-Ar-joy-dev.txt"
+	development -> "2018-EI-oc-Ar-joy-dev.txt"
+	"2018-EI-oc-Ar-anger-dev.txt"
+	development -> "2018-EI-oc-Ar-anger-dev.txt"
+	"2018-EI-oc-Ar-fear-dev.txt"
+	development -> "2018-EI-oc-Ar-fear-dev.txt"
+	training
+	"EI-oc" -> training
+	"2018-EI-oc-Ar-anger-train.txt"
+	training -> "2018-EI-oc-Ar-anger-train.txt"
+	"2018-EI-oc-Ar-sadness-train.txt"
+	training -> "2018-EI-oc-Ar-sadness-train.txt"
+	"2018-EI-oc-Ar-joy-train.txt"
+	training -> "2018-EI-oc-Ar-joy-train.txt"
+	"2018-EI-oc-Ar-fear-train.txt"
+	training -> "2018-EI-oc-Ar-fear-train.txt"
+	"test-gold"
+	"EI-oc" -> "test-gold"
+	"2018-EI-oc-Ar-joy-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-Ar-joy-test-gold.txt"
+	"2018-EI-oc-Ar-sadness-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-Ar-sadness-test-gold.txt"
+	"2018-EI-oc-Ar-anger-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-Ar-anger-test-gold.txt"
+	"2018-EI-oc-Ar-fear-test-gold.txt"
+	"test-gold" -> "2018-EI-oc-Ar-fear-test-gold.txt"
+	"E-c"
+	Arabic -> "E-c"
+	"2018-E-c-Ar-train.txt"
+	"E-c" -> "2018-E-c-Ar-train.txt"
+	"2018-E-c-Ar-test-gold.txt"
+	"E-c" -> "2018-E-c-Ar-test-gold.txt"
+	"2018-E-c-Ar-dev.txt"
+	"E-c" -> "2018-E-c-Ar-dev.txt"
+	"EI-reg"
+	Arabic -> "EI-reg"
+	development
+	"EI-reg" -> development
+	"2018-EI-reg-Ar-fear-dev.txt"
+	development -> "2018-EI-reg-Ar-fear-dev.txt"
+	"2018-EI-reg-Ar-sadness-dev.txt"
+	development -> "2018-EI-reg-Ar-sadness-dev.txt"
+	"2018-EI-reg-Ar-anger-dev.txt"
+	development -> "2018-EI-reg-Ar-anger-dev.txt"
+	"2018-EI-reg-Ar-joy-dev.txt"
+	development -> "2018-EI-reg-Ar-joy-dev.txt"
+	training
+	"EI-reg" -> training
+	"2018-EI-reg-Ar-joy-train.txt"
+	training -> "2018-EI-reg-Ar-joy-train.txt"
+	"2018-EI-reg-Ar-sadness-train.txt"
+	training -> "2018-EI-reg-Ar-sadness-train.txt"
+	"2018-EI-reg-Ar-anger-train.txt"
+	training -> "2018-EI-reg-Ar-anger-train.txt"
+	"2018-EI-reg-Ar-fear-train.txt"
+	training -> "2018-EI-reg-Ar-fear-train.txt"
+	"test-gold"
+	"EI-reg" -> "test-gold"
+	"2018-EI-reg-Ar-joy-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-Ar-joy-test-gold.txt"
+	"2018-EI-reg-Ar-anger-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-Ar-anger-test-gold.txt"
+	"2018-EI-reg-Ar-sadness-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-Ar-sadness-test-gold.txt"
+	"2018-EI-reg-Ar-fear-test-gold.txt"
+	"test-gold" -> "2018-EI-reg-Ar-fear-test-gold.txt"
+	".DS_Store"
+	Arabic -> ".DS_Store"
+	"SemEval2018-Task1-task-description.pdf"
+	Dataset -> "SemEval2018-Task1-task-description.pdf"
+	".DS_Store"
+	Dataset -> ".DS_Store"
+	"SemEval2018-Task1-EN-data-description.pdf"
+	Dataset -> "SemEval2018-Task1-EN-data-description.pdf"
+	"README.txt"
+	Dataset -> "README.txt"
+	Notebook
+	"Social-Media-Sentiment-Analysis" -> Notebook
+	fear
+	Notebook -> fear
+	figures
+	fear -> figures
+	"Most_Common_fear_Words.png"
+	figures -> "Most_Common_fear_Words.png"
+	"High_Amount_fear_Inferred.png"
+	figures -> "High_Amount_fear_Inferred.png"
+	"No_fear_Inferred.png"
+	figures -> "No_fear_Inferred.png"
+	"Low_Amount_fear_Inferred.png"
+	figures -> "Low_Amount_fear_Inferred.png"
+	"wordcloud_train.png"
+	figures -> "wordcloud_train.png"
+	"Moderate_Amount_fear_Inferred.png"
+	figures -> "Moderate_Amount_fear_Inferred.png"
+	"ml_classification_fear.py"
+	fear -> "ml_classification_fear.py"
+	".DS_Store"
+	fear -> ".DS_Store"
+	"ML_Classification_fear.ipynb"
+	fear -> "ML_Classification_fear.ipynb"
+	"model_BGRU.h5"
+	fear -> "model_BGRU.h5"
+	"Rnn_model.h5"
+	fear -> "Rnn_model.h5"
+	"model_LSTM.h5"
+	fear -> "model_LSTM.h5"
+	"CNN_model.h5"
+	fear -> "CNN_model.h5"
+	sadness
+	Notebook -> sadness
+	figures
+	sadness -> figures
+	"Low_Amount_sadness_Inferred.png"
+	figures -> "Low_Amount_sadness_Inferred.png"
+	"High_Amount_sadness_Inferred.png"
+	figures -> "High_Amount_sadness_Inferred.png"
+	"No_sadness_Inferred.png"
+	figures -> "No_sadness_Inferred.png"
+	"wordcloud_train.png"
+	figures -> "wordcloud_train.png"
+	"Moderate_Amount_sadness_Inferred.png"
+	figures -> "Moderate_Amount_sadness_Inferred.png"
+	"Most_Common_sadness_Words.png"
+	figures -> "Most_Common_sadness_Words.png"
+	".DS_Store"
+	sadness -> ".DS_Store"
+	"model_BGRU.h5"
+	sadness -> "model_BGRU.h5"
+	"ml_classification_sadness.py"
+	sadness -> "ml_classification_sadness.py"
+	"Rnn_model.h5"
+	sadness -> "Rnn_model.h5"
+	"model_LSTM.h5"
+	sadness -> "model_LSTM.h5"
+	"CNN_model.h5"
+	sadness -> "CNN_model.h5"
+	anger
+	Notebook -> anger
+	figures
+	anger -> figures
+	".DS_Store"
+	figures -> ".DS_Store"
+	"Low_Amount_anger_Inferred.png"
+	figures -> "Low_Amount_anger_Inferred.png"
+	"Moderate_Amount_anger_Inferred.png"
+	figures -> "Moderate_Amount_anger_Inferred.png"
+	"Most_Common_anger_Words.png"
+	figures -> "Most_Common_anger_Words.png"
+	"No_anger_Inferred.png"
+	figures -> "No_anger_Inferred.png"
+	"Most_Common_Words.png"
+	figures -> "Most_Common_Words.png"
+	"wordcloud_train.png"
+	figures -> "wordcloud_train.png"
+	"Word_cloud.png"
+	figures -> "Word_cloud.png"
+	"High_Amount_anger_Inferred.png"
+	figures -> "High_Amount_anger_Inferred.png"
+	"ml_classification_anger.py"
+	anger -> "ml_classification_anger.py"
+	".DS_Store"
+	anger -> ".DS_Store"
+	"model_BGRU.h5"
+	anger -> "model_BGRU.h5"
+	"Rnn_model.h5"
+	anger -> "Rnn_model.h5"
+	"model_LSTM.h5"
+	anger -> "model_LSTM.h5"
+	"ML_Classification_anger.ipynb"
+	anger -> "ML_Classification_anger.ipynb"
+	"CNN_model.h5"
+	anger -> "CNN_model.h5"
+	joy
+	Notebook -> joy
+	figures
+	joy -> figures
+	"Low_Amount_joy_Inferred.png"
+	figures -> "Low_Amount_joy_Inferred.png"
+	"Moderate_Amount_joy_Inferred.png"
+	figures -> "Moderate_Amount_joy_Inferred.png"
+	"Most_Common_joy_Words.png"
+	figures -> "Most_Common_joy_Words.png"
+	"wordcloud_train.png"
+	figures -> "wordcloud_train.png"
+	"High_Amount_joy_Inferred.png"
+	figures -> "High_Amount_joy_Inferred.png"
+	"No_joy_Inferred.png"
+	figures -> "No_joy_Inferred.png"
+	".DS_Store"
+	joy -> ".DS_Store"
+	"ml_classification_joy.py"
+	joy -> "ml_classification_joy.py"
+	"model_BGRU.h5"
+	joy -> "model_BGRU.h5"
+	"Rnn_model.h5"
+	joy -> "Rnn_model.h5"
+	"model_LSTM.h5"
+	joy -> "model_LSTM.h5"
+	"CNN_model.h5"
+	joy -> "CNN_model.h5"
+	".DS_Store"
+	Notebook -> ".DS_Store"
+	"reuse_code.py"
+	Notebook -> "reuse_code.py"
+	"test.py"
+	Notebook -> "test.py"
+	"Deep-learning.ipynb"
+	Notebook -> "Deep-learning.ipynb"
+	"Directory.py"
+	Notebook -> "Directory.py"
+	".git"
+	"Social-Media-Sentiment-Analysis" -> ".git"
+	objects
+	".git" -> objects
+	"0c"
+	objects -> "0c"
+	"73fe3fdc680ac39aa7296161fa222192dca5ae"
+	"0c" -> "73fe3fdc680ac39aa7296161fa222192dca5ae"
+	50
+	objects -> 50
+	"08ddfcf53c02e82d7eee2e57c38e5672ef89f6"
+	50 -> "08ddfcf53c02e82d7eee2e57c38e5672ef89f6"
+	68
+	objects -> 68
+	"00d856d938e54b57479c5825321ede81103a55"
+	68 -> "00d856d938e54b57479c5825321ede81103a55"
+	"3b"
+	objects -> "3b"
+	eab7f3e8dc851c293cf02599904defb57bd39f
+	"3b" -> eab7f3e8dc851c293cf02599904defb57bd39f
+	03
+	objects -> 03
+	"9137f37b8b6772757e29ecc540e80b99260f08"
+	03 -> "9137f37b8b6772757e29ecc540e80b99260f08"
+	"9e"
+	objects -> "9e"
+	bb0d1f924362798ec73db72f8506b313147dd4
+	"9e" -> bb0d1f924362798ec73db72f8506b313147dd4
+	04
+	objects -> 04
+	"60bd74c2279e71d314620e465c3c7a0947a2c4"
+	04 -> "60bd74c2279e71d314620e465c3c7a0947a2c4"
+	"6a"
+	objects -> "6a"
+	"94898692241efe4143c1e88bf04518c4fa222d"
+	"6a" -> "94898692241efe4143c1e88bf04518c4fa222d"
+	69
+	objects -> 69
+	"00e9549c4cdf578e94cea130b626aa862da51d"
+	69 -> "00e9549c4cdf578e94cea130b626aa862da51d"
+	eef4e0cf1b3a8503809380a41b20185ba31c8c
+	69 -> eef4e0cf1b3a8503809380a41b20185ba31c8c
+	bb5bd7c5ba7b90a1c20e2c3451b38dcb65bb9d
+	69 -> bb5bd7c5ba7b90a1c20e2c3451b38dcb65bb9d
+	56
+	objects -> 56
+	"3c26b08961c056b28051fb6376a0ffe8c0cb94"
+	56 -> "3c26b08961c056b28051fb6376a0ffe8c0cb94"
+	"3d"
+	objects -> "3d"
+	d1faefb8ba34daca067e8fe8120777296be0ca
+	"3d" -> d1faefb8ba34daca067e8fe8120777296be0ca
+	"926933b52570cb080c3b18c9ccc8b4bacedf63"
+	"3d" -> "926933b52570cb080c3b18c9ccc8b4bacedf63"
+	58
+	objects -> 58
+	a2a5f13ad7b59a36574df54092ddd2fb298da9
+	58 -> a2a5f13ad7b59a36574df54092ddd2fb298da9
+	94
+	objects -> 94
+	f18ef5d9612ada36078c3ed67f1598d056a039
+	94 -> f18ef5d9612ada36078c3ed67f1598d056a039
+	"0e"
+	objects -> "0e"
+	"2e5408affcdfe5cd349f6a67880d0d5c466cf5"
+	"0e" -> "2e5408affcdfe5cd349f6a67880d0d5c466cf5"
+	34
+	objects -> 34
+	ea7f5665565cedfe46c313ff6b1d513f84386b
+	34 -> ea7f5665565cedfe46c313ff6b1d513f84386b
+	"5a"
+	objects -> "5a"
+	d1d0ecbd312bbb2d047e56d8bf49d24f32afb8
+	"5a" -> d1d0ecbd312bbb2d047e56d8bf49d24f32afb8
+	"5f"
+	objects -> "5f"
+	"2e85b06a6313fb6c684fff3556dbfe1253783f"
+	"5f" -> "2e85b06a6313fb6c684fff3556dbfe1253783f"
+	05
+	objects -> 05
+	f388b2f7592f515a3ff4b19c331bace133c72d
+	05 -> f388b2f7592f515a3ff4b19c331bace133c72d
+	"4d6cc671bde8c9084865cbd5f49a99d3ab44aa"
+	05 -> "4d6cc671bde8c9084865cbd5f49a99d3ab44aa"
+	"9d"
+	objects -> "9d"
+	"5055d63c707fc172c64f416ceaaff441a3218e"
+	"9d" -> "5055d63c707fc172c64f416ceaaff441a3218e"
+	"8e1488e1b873a6a968e49b4f2032191dbd45b8"
+	"9d" -> "8e1488e1b873a6a968e49b4f2032191dbd45b8"
+	02
+	objects -> 02
+	f5e2e69804d0cd7f3f94d5a6577da6a67b2345
+	02 -> f5e2e69804d0cd7f3f94d5a6577da6a67b2345
+	a3
+	objects -> a3
+	"4c0ffcaf1b5daebfb9ddc0872990b6ff7d634f"
+	a3 -> "4c0ffcaf1b5daebfb9ddc0872990b6ff7d634f"
+	"55ced83a95d90278a6cc32a294a3af0bb3d283"
+	a3 -> "55ced83a95d90278a6cc32a294a3af0bb3d283"
+	fab6f8be539905c360f1226f90666ba4b2a742
+	a3 -> fab6f8be539905c360f1226f90666ba4b2a742
+	b5
+	objects -> b5
+	"279271e752b6798f6c456671ff832e169b3959"
+	b5 -> "279271e752b6798f6c456671ff832e169b3959"
+	b2
+	objects -> b2
+	a0d93fa5357779d674a27c968ea58014fb0e6f
+	b2 -> a0d93fa5357779d674a27c968ea58014fb0e6f
+	"273bea6489543c57475bef3c6298f8284f7a44"
+	b2 -> "273bea6489543c57475bef3c6298f8284f7a44"
+	"0b4775ec4541276df1fde3d64e3865bf24d5f1"
+	b2 -> "0b4775ec4541276df1fde3d64e3865bf24d5f1"
+	d9
+	objects -> d9
+	ca38dbd0005cd5a7dbe231c05da17399564295
+	d9 -> ca38dbd0005cd5a7dbe231c05da17399564295
+	ad
+	objects -> ad
+	"9714cd113f6c427ac71e239b5988a79657972b"
+	ad -> "9714cd113f6c427ac71e239b5988a79657972b"
+	d7
+	objects -> d7
+	"45a42fe2d2d462a1c08be78c19fce452004d18"
+	d7 -> "45a42fe2d2d462a1c08be78c19fce452004d18"
+	"48122d401b22c1d730774811b342df9a4b153d"
+	d7 -> "48122d401b22c1d730774811b342df9a4b153d"
+	d0
+	objects -> d0
+	"8964f4366ef72c59e330e5dcbb088978b7b083"
+	d0 -> "8964f4366ef72c59e330e5dcbb088978b7b083"
+	be
+	objects -> be
+	"5f963a9a5db24f164c058c31be85d224f3ccc6"
+	be -> "5f963a9a5db24f164c058c31be85d224f3ccc6"
+	f703bbf1be019c125ac287ec61395ff7550c15
+	be -> f703bbf1be019c125ac287ec61395ff7550c15
+	b3
+	objects -> b3
+	a368120fe651ada9a899cbc95ec425a9b2a2be
+	b3 -> a368120fe651ada9a899cbc95ec425a9b2a2be
+	da
+	objects -> da
+	bc6022e194b801cf39c8c244f8358e73c090df
+	da -> bc6022e194b801cf39c8c244f8358e73c090df
+	b4
+	objects -> b4
+	"84019890ad3d61848921b8d0d4ff646528f609"
+	b4 -> "84019890ad3d61848921b8d0d4ff646528f609"
+	a2
+	objects -> a2
+	d5353dde15a7437e1c12bd9a41ef5271dd9678
+	a2 -> d5353dde15a7437e1c12bd9a41ef5271dd9678
+	a5
+	objects -> a5
+	"8cfaa2f5c14d99114c046718dabd0d51be3468"
+	a5 -> "8cfaa2f5c14d99114c046718dabd0d51be3468"
+	d12b90dc3377260e4ecc47b0de9e11fe4198b5
+	a5 -> d12b90dc3377260e4ecc47b0de9e11fe4198b5
+	bd
+	objects -> bd
+	"42c71c00caf4c48ec4bf5e45db725079a9c3d3"
+	bd -> "42c71c00caf4c48ec4bf5e45db725079a9c3d3"
+	d1
+	objects -> d1
+	"106bec67a20aa96b1526cd20a016260d6f6edd"
+	d1 -> "106bec67a20aa96b1526cd20a016260d6f6edd"
+	d6
+	objects -> d6
+	aa1f01dcb291157cc6a8847f8a50fc1d420e2f
+	d6 -> aa1f01dcb291157cc6a8847f8a50fc1d420e2f
+	"51de3d8bcdb90fd22fae973bb2b80be88516a2"
+	d6 -> "51de3d8bcdb90fd22fae973bb2b80be88516a2"
+	bc
+	objects -> bc
+	"2a72f98e79d0a14e2a2e6e9e2ad1ea211d885f"
+	bc -> "2a72f98e79d0a14e2a2e6e9e2ad1ea211d885f"
+	ae
+	objects -> ae
+	ba2be10fa611b1ec76b0ab269a4b302b9793bb
+	ae -> ba2be10fa611b1ec76b0ab269a4b302b9793bb
+	d8
+	objects -> d8
+	ae976be91e80502178111d3659de0722b20498
+	d8 -> ae976be91e80502178111d3659de0722b20498
+	e2
+	objects -> e2
+	f0315e9edda3f742879949e837dbc6cb02309a
+	e2 -> f0315e9edda3f742879949e837dbc6cb02309a
+	f3
+	objects -> f3
+	"2af89a5ea12ce89b4400d2c71cc486fddd513f"
+	f3 -> "2af89a5ea12ce89b4400d2c71cc486fddd513f"
+	"2f287539ef3037b782edf2b70877aa746daa59"
+	f3 -> "2f287539ef3037b782edf2b70877aa746daa59"
+	eb
+	objects -> eb
+	"579648c4fe0c9567f28779fb2fdb0ef645a426"
+	eb -> "579648c4fe0c9567f28779fb2fdb0ef645a426"
+	f4bec5c42f905b52d18a3797f5b914fa280e35
+	eb -> f4bec5c42f905b52d18a3797f5b914fa280e35
+	c7
+	objects -> c7
+	e1ac37c989f9ed939bde6b9a45ede60e292ee2
+	c7 -> e1ac37c989f9ed939bde6b9a45ede60e292ee2
+	"530fab04691c2a95cf67d86dfefae45396038d"
+	c7 -> "530fab04691c2a95cf67d86dfefae45396038d"
+	ee
+	objects -> ee
+	d1385db68838e035051f6778eef8070724f037
+	ee -> d1385db68838e035051f6778eef8070724f037
+	f2
+	objects -> f2
+	efa47c57257132f4a134d2034caa222da55824
+	f2 -> efa47c57257132f4a134d2034caa222da55824
+	e3
+	objects -> e3
+	"41a4a4a60b3034347a11791c17c08457bff36c"
+	e3 -> "41a4a4a60b3034347a11791c17c08457bff36c"
+	"2ae1fdc668d5a9db89b344df6399bd5b9324dc"
+	e3 -> "2ae1fdc668d5a9db89b344df6399bd5b9324dc"
+	cf
+	objects -> cf
+	"8d1b57955848d40c9caa6c1eb72562ada078d6"
+	cf -> "8d1b57955848d40c9caa6c1eb72562ada078d6"
+	ca
+	objects -> ca
+	"2e4b4bac3a677fc5052bbae3b27322e60a7502"
+	ca -> "2e4b4bac3a677fc5052bbae3b27322e60a7502"
+	"80cc18b6c65a83d91785812bc68ac28809b21c"
+	ca -> "80cc18b6c65a83d91785812bc68ac28809b21c"
+	e4
+	objects -> e4
+	"1f29fadb55346e9a71c37a331d21b8e06058b2"
+	e4 -> "1f29fadb55346e9a71c37a331d21b8e06058b2"
+	fe
+	objects -> fe
+	b901e1e157cc212b309bc1f7a008fe6e150852
+	fe -> b901e1e157cc212b309bc1f7a008fe6e150852
+	c8
+	objects -> c8
+	"8783d62870f575bcba8371b47414a1cca69e09"
+	c8 -> "8783d62870f575bcba8371b47414a1cca69e09"
+	fb
+	objects -> fb
+	e853b740d12370adc7179da6d29e9a4f3efd47
+	fb -> e853b740d12370adc7179da6d29e9a4f3efd47
+	"548b41cf02e31367129325a6f2497114d75f35"
+	fb -> "548b41cf02e31367129325a6f2497114d75f35"
+	ed
+	objects -> ed
+	"9aaad17c60c1211448b18ed829bb00f53f5ecf"
+	ed -> "9aaad17c60c1211448b18ed829bb00f53f5ecf"
+	ba78366714a6fe300f8360dde671cc2dc87f24
+	ed -> ba78366714a6fe300f8360dde671cc2dc87f24
+	"82779da7a1fe5221a9e6381da467597226355e"
+	ed -> "82779da7a1fe5221a9e6381da467597226355e"
+	c1
+	objects -> c1
+	"954e90b69171f03be93164a63a560b586d006b"
+	c1 -> "954e90b69171f03be93164a63a560b586d006b"
+	c6
+	objects -> c6
+	db83c9bd934d7f141d1ce48038158fa3e868da
+	c6 -> db83c9bd934d7f141d1ce48038158fa3e868da
+	ec
+	objects -> ec
+	b584e7a9ba0ff075e43d465a5489dc97729ca3
+	ec -> b584e7a9ba0ff075e43d465a5489dc97729ca3
+	"4e"
+	objects -> "4e"
+	"82c6fe3a6fd7fc2fe04582121cb6cc2853b3cd"
+	"4e" -> "82c6fe3a6fd7fc2fe04582121cb6cc2853b3cd"
+	c113e903c3fa71187fe6be4e8d8e7325ecf4a6
+	"4e" -> c113e903c3fa71187fe6be4e8d8e7325ecf4a6
+	ec71115904c39e89a7f2199bb81503c425a09d
+	"4e" -> ec71115904c39e89a7f2199bb81503c425a09d
+	20
+	objects -> 20
+	c45fb654687a7cc37fb03de39ee3d84d07967e
+	20 -> c45fb654687a7cc37fb03de39ee3d84d07967e
+	18
+	objects -> 18
+	d46789b7efe1a37670919f4629de2e3ff82076
+	18 -> d46789b7efe1a37670919f4629de2e3ff82076
+	"98ac75c95275c25dc89a4359b80ceb37a4e056"
+	18 -> "98ac75c95275c25dc89a4359b80ceb37a4e056"
+	27
+	objects -> 27
+	"2e33ff78b5e9118c06c9e5b80fa4d19f831cf6"
+	27 -> "2e33ff78b5e9118c06c9e5b80fa4d19f831cf6"
+	pack
+	objects -> pack
+	"pack-aaa59c5274425ed9f1e461a5f18a1190187e6dda.idx"
+	pack -> "pack-aaa59c5274425ed9f1e461a5f18a1190187e6dda.idx"
+	"pack-aaa59c5274425ed9f1e461a5f18a1190187e6dda.pack"
+	pack -> "pack-aaa59c5274425ed9f1e461a5f18a1190187e6dda.pack"
+	"pack-aaa59c5274425ed9f1e461a5f18a1190187e6dda.rev"
+	pack -> "pack-aaa59c5274425ed9f1e461a5f18a1190187e6dda.rev"
+	11
+	objects -> 11
+	"46d5440ebd5dd43d7348b0cb43a320c8c77b0c"
+	11 -> "46d5440ebd5dd43d7348b0cb43a320c8c77b0c"
+	"7d"
+	objects -> "7d"
+	f6e914fbb39560abded92d675c84eb51dd8d43
+	"7d" -> f6e914fbb39560abded92d675c84eb51dd8d43
+	bc1206ad82348553d9e704613ba7076e4f63df
+	"7d" -> bc1206ad82348553d9e704613ba7076e4f63df
+	"56794db3a058af3d0436a3168a0e679b401047"
+	"7d" -> "56794db3a058af3d0436a3168a0e679b401047"
+	29
+	objects -> 29
+	"5acd5deac669c2e9f5d4f8587964ba46586667"
+	29 -> "5acd5deac669c2e9f5d4f8587964ba46586667"
+	"7c"
+	objects -> "7c"
+	e4b64983ab86b807fbd00e3a446dad33ea5fca
+	"7c" -> e4b64983ab86b807fbd00e3a446dad33ea5fca
+	"7474699d090ee2ee2d9cf7a92671cdd4fcda67"
+	"7c" -> "7474699d090ee2ee2d9cf7a92671cdd4fcda67"
+	16
+	objects -> 16
+	"543e70e9bc0ccc68d4a6a1c76dfbffd52a88bc"
+	16 -> "543e70e9bc0ccc68d4a6a1c76dfbffd52a88bc"
+	42
+	objects -> 42
+	e6db8f746d3068e843cdaab5485c0aba0e3e73
+	42 -> e6db8f746d3068e843cdaab5485c0aba0e3e73
+	d334c88bff5b236dfdfa7b98f3c91a063888cf
+	42 -> d334c88bff5b236dfdfa7b98f3c91a063888cf
+	"1a6dba651a27ab545f1e482e350ca24134412f"
+	42 -> "1a6dba651a27ab545f1e482e350ca24134412f"
+	89
+	objects -> 89
+	"861765057f3b0a893a9f6d9a2e0f3edc7d39e7"
+	89 -> "861765057f3b0a893a9f6d9a2e0f3edc7d39e7"
+	45
+	objects -> 45
+	"5671385bf32ec7e1362c7568be03d81ee26692"
+	45 -> "5671385bf32ec7e1362c7568be03d81ee26692"
+	"092917cdf47118a0016b1a12167060ce747f7e"
+	45 -> "092917cdf47118a0016b1a12167060ce747f7e"
+	"1f"
+	objects -> "1f"
+	"1468a7bbddef94f4db03493805527ca02fcf9b"
+	"1f" -> "1468a7bbddef94f4db03493805527ca02fcf9b"
+	fa689416c034d59074ce2c2eb21ca6d62756ed
+	"1f" -> fa689416c034d59074ce2c2eb21ca6d62756ed
+	73
+	objects -> 73
+	"549fe7a04bbe3074ed1bfdbb9371dd0158b133"
+	73 -> "549fe7a04bbe3074ed1bfdbb9371dd0158b133"
+	f062ed74c9807df5793df90f88f6821f3e46c0
+	73 -> f062ed74c9807df5793df90f88f6821f3e46c0
+	87
+	objects -> 87
+	"0602bc2ef5aa8057540f95877e1fcf5ef7d938"
+	87 -> "0602bc2ef5aa8057540f95877e1fcf5ef7d938"
+	80
+	objects -> 80
+	d38f8d17a45e5b7e5a655a4226d456565d79a4
+	80 -> d38f8d17a45e5b7e5a655a4226d456565d79a4
+	28
+	objects -> 28
+	"5f7acf8745a740e07ed1a4f4967c4751f3f6e1"
+	28 -> "5f7acf8745a740e07ed1a4f4967c4751f3f6e1"
+	17
+	objects -> 17
+	"31db7e19a8d185574164b441949df6b0bd99c6"
+	17 -> "31db7e19a8d185574164b441949df6b0bd99c6"
+	"4a9edaa511b0d43d28299e891f02503883191d"
+	17 -> "4a9edaa511b0d43d28299e891f02503883191d"
+	"7b"
+	objects -> "7b"
+	e9dd2eb73fe93fa74eae069da92d1397f4e965
+	"7b" -> e9dd2eb73fe93fa74eae069da92d1397f4e965
+	"499f3a0510d179194a62d8318b495eb57f9546"
+	"7b" -> "499f3a0510d179194a62d8318b495eb57f9546"
+	"8f"
+	objects -> "8f"
+	"120e031a2d91d3ab3cf4dab19462d3b1b3241f"
+	"8f" -> "120e031a2d91d3ab3cf4dab19462d3b1b3241f"
+	"8a"
+	objects -> "8a"
+	c9bb7846ac8d172d60e46d3031b6df7aa025fc
+	"8a" -> c9bb7846ac8d172d60e46d3031b6df7aa025fc
+	"7e"
+	objects -> "7e"
+	"7141de8e84301f3db5a00b696c8afa183946d0"
+	"7e" -> "7141de8e84301f3db5a00b696c8afa183946d0"
+	10
+	objects -> 10
+	"5d166d898b0839c660e077ad145fc635bc75cf"
+	10 -> "5d166d898b0839c660e077ad145fc635bc75cf"
+	19
+	objects -> 19
+	"0fbcbaa44fa32943e4e4d664f5e463a30735aa"
+	19 -> "0fbcbaa44fa32943e4e4d664f5e463a30735aa"
+	"4c"
+	objects -> "4c"
+	f22032934fc934073a07e369d0ec48b4f03aac
+	"4c" -> f22032934fc934073a07e369d0ec48b4f03aac
+	c744c4064f609a01e186f735f90ea0e24b3628
+	"4c" -> c744c4064f609a01e186f735f90ea0e24b3628
+	26
+	objects -> 26
+	"6f643a12f4844564884c44455ff7612ad53497"
+	26 -> "6f643a12f4844564884c44455ff7612ad53497"
+	c7eb6b701246903711417fe094f8c9e4d8ed7a
+	26 -> c7eb6b701246903711417fe094f8c9e4d8ed7a
+	eda9483e095ddb59128e395a09bdff615e577d
+	26 -> eda9483e095ddb59128e395a09bdff615e577d
+	bb4b6a0c6c5698623d8c801fd252968ed85e3a
+	26 -> bb4b6a0c6c5698623d8c801fd252968ed85e3a
+	21
+	objects -> 21
+	"3a4d87aca0d6ef7ea77a6eb022f48364428de8"
+	21 -> "3a4d87aca0d6ef7ea77a6eb022f48364428de8"
+	"4d"
+	objects -> "4d"
+	ab82cf483d169d478f7b824a0f0d05610fa4a5
+	"4d" -> ab82cf483d169d478f7b824a0f0d05610fa4a5
+	75
+	objects -> 75
+	bbeb6e27700ea0a3618b170427e465390b452d
+	75 -> bbeb6e27700ea0a3618b170427e465390b452d
+	"5f7d57f8f561e501dba2185c36abb8f9b9a91d"
+	75 -> "5f7d57f8f561e501dba2185c36abb8f9b9a91d"
+	"65f9d35961e5c25e43b4922d6fa5ddab8a223c"
+	75 -> "65f9d35961e5c25e43b4922d6fa5ddab8a223c"
+	72
+	objects -> 72
+	"98b543c1df9bb2711fc9189b828ca2d7785d50"
+	72 -> "98b543c1df9bb2711fc9189b828ca2d7785d50"
+	"762bd27bf2ea6b67363bd2b026b6d2b2c2a7ec"
+	72 -> "762bd27bf2ea6b67363bd2b026b6d2b2c2a7ec"
+	44
+	objects -> 44
+	"74d24eab33af29481a66037b3f79c532e4ace3"
+	44 -> "74d24eab33af29481a66037b3f79c532e4ace3"
+	"853ce283aa7b862d89afdddea85f477030017d"
+	44 -> "853ce283aa7b862d89afdddea85f477030017d"
+	"2a"
+	objects -> "2a"
+	"13ec74c6b33b8e306aeb614ba5ae350649193e"
+	"2a" -> "13ec74c6b33b8e306aeb614ba5ae350649193e"
+	43
+	objects -> 43
+	"1ed05203a7aa78da6e20e205facb655b0aed69"
+	43 -> "1ed05203a7aa78da6e20e205facb655b0aed69"
+	"9f"
+	objects -> "9f"
+	bdd24cbb482f745aa2dd7d0f96c7102634c0b3
+	"9f" -> bdd24cbb482f745aa2dd7d0f96c7102634c0b3
+	"0b94b8afc838e3d30a7d6ca863e611154181e4"
+	"9f" -> "0b94b8afc838e3d30a7d6ca863e611154181e4"
+	"6b"
+	objects -> "6b"
+	"0fca4262e79c53edb65863acf9ee2256b835c6"
+	"6b" -> "0fca4262e79c53edb65863acf9ee2256b835c6"
+	f4efa09f46020be4cdd0b1cba0c46bebb35b2b
+	"6b" -> f4efa09f46020be4cdd0b1cba0c46bebb35b2b
+	cb9f988a9678b513651483537cf13264f27227
+	"6b" -> cb9f988a9678b513651483537cf13264f27227
+	00
+	objects -> 00
+	d732b759b8bbfa329c192b6db6b0cbaa8766f6
+	00 -> d732b759b8bbfa329c192b6db6b0cbaa8766f6
+	"5c"
+	objects -> "5c"
+	"6f5252ee7cf9619e15e791be79d741c6f43a10"
+	"5c" -> "6f5252ee7cf9619e15e791be79d741c6f43a10"
+	e44c47816121ba416c92fcdec1feef5adda717
+	"5c" -> e44c47816121ba416c92fcdec1feef5adda717
+	09
+	objects -> 09
+	"5baf4e315b7d975ca07ac65df1a04433ec2883"
+	09 -> "5baf4e315b7d975ca07ac65df1a04433ec2883"
+	"5d"
+	objects -> "5d"
+	"21a008df592f8bfae75d4d6cb5a6778769c64c"
+	"5d" -> "21a008df592f8bfae75d4d6cb5a6778769c64c"
+	ee7eefdcc466024e17e561851fc2fa652c0c4f
+	"5d" -> ee7eefdcc466024e17e561851fc2fa652c0c4f
+	b5481df1a07b008457e03a419e18c1e9e2e7a2
+	"5d" -> b5481df1a07b008457e03a419e18c1e9e2e7a2
+	31
+	objects -> 31
+	"40ed2be26c6ffea984529770f17aaa83fa0d71"
+	31 -> "40ed2be26c6ffea984529770f17aaa83fa0d71"
+	info
+	objects -> info
+	65
+	objects -> 65
+	be68f6a7ff64f9a27cb8330fcb324ef9d9bdbc
+	65 -> be68f6a7ff64f9a27cb8330fcb324ef9d9bdbc
+	"7ccc4c49a37ae1b07008c4a931430738dc6a69"
+	65 -> "7ccc4c49a37ae1b07008c4a931430738dc6a69"
+	62
+	objects -> 62
+	"5851efc14bd37ab08493b6d79949edfb8fc797"
+	62 -> "5851efc14bd37ab08493b6d79949edfb8fc797"
+	96
+	objects -> 96
+	"7bda419f8d82c3aa65d94e9af011fc29443ecc"
+	96 -> "7bda419f8d82c3aa65d94e9af011fc29443ecc"
+	53
+	objects -> 53
+	"8ce32ae03b6c062c2d56a01278271c127d283f"
+	53 -> "8ce32ae03b6c062c2d56a01278271c127d283f"
+	"3f"
+	objects -> "3f"
+	f5a7e8a866aa790f8611b7d96c346d88dfb86c
+	"3f" -> f5a7e8a866aa790f8611b7d96c346d88dfb86c
+	d590508124d7e120be4ca96adfe4fc071c1c16
+	"3f" -> d590508124d7e120be4ca96adfe4fc071c1c16
+	30
+	objects -> 30
+	"824c5041fe62c95fcadc7d2575eedd218ac76e"
+	30 -> "824c5041fe62c95fcadc7d2575eedd218ac76e"
+	"5e"
+	objects -> "5e"
+	"50cd277cfb0116eefe6effcf6fadfc234bc311"
+	"5e" -> "50cd277cfb0116eefe6effcf6fadfc234bc311"
+	e896646251b82b3e1ada54a9ad64c0963880de
+	"5e" -> e896646251b82b3e1ada54a9ad64c0963880de
+	"5b"
+	objects -> "5b"
+	"7f3bf1b852cc1f841b83f257de71a40273a1a3"
+	"5b" -> "7f3bf1b852cc1f841b83f257de71a40273a1a3"
+	37
+	objects -> 37
+	"00229938b28b28a4bbe3004a089a042dd1f411"
+	37 -> "00229938b28b28a4bbe3004a089a042dd1f411"
+	b4f8e93c0de308b2741b3ccb797c6b493b883f
+	37 -> b4f8e93c0de308b2741b3ccb797c6b493b883f
+	"45617b012095b90294f7953b8fa9c176e17d16"
+	37 -> "45617b012095b90294f7953b8fa9c176e17d16"
+	e8db70feee07ad47b7bf3e5af15717e46e335e
+	37 -> e8db70feee07ad47b7bf3e5af15717e46e335e
+	08
+	objects -> 08
+	"49b593f969a22f63497889daa8616002bcc226"
+	08 -> "49b593f969a22f63497889daa8616002bcc226"
+	01
+	objects -> 01
+	c83647f0b0cebc40f416a5c6cf9a5e3dac3d52
+	01 -> c83647f0b0cebc40f416a5c6cf9a5e3dac3d52
+	d976d9fce3221ff0ef9ac81172968112dad4e7
+	01 -> d976d9fce3221ff0ef9ac81172968112dad4e7
+	39
+	objects -> 39
+	"1176cc382f2328179074f57eaa2e50f2cc9176"
+	39 -> "1176cc382f2328179074f57eaa2e50f2cc9176"
+	99
+	objects -> 99
+	c3360e4254a57e97259763c166bc1a204c4426
+	99 -> c3360e4254a57e97259763c166bc1a204c4426
+	ebc331f95f87fccd48157d0cd737db50dea456
+	99 -> ebc331f95f87fccd48157d0cd737db50dea456
+	"6565f7492e2da8348d38af857ff8cecfae6bc3"
+	99 -> "6565f7492e2da8348d38af857ff8cecfae6bc3"
+	52
+	objects -> 52
+	f2e32e3a500346674521b3d032c10186a9c454
+	52 -> f2e32e3a500346674521b3d032c10186a9c454
+	"5be3f2eb12e7401f42d94e1e6195f89b544645"
+	52 -> "5be3f2eb12e7401f42d94e1e6195f89b544645"
+	97
+	objects -> 97
+	c5547f922a149daf81aecd0d5b2654b07ffc23
+	97 -> c5547f922a149daf81aecd0d5b2654b07ffc23
+	63
+	objects -> 63
+	a03c2e481e5ef2a41ec3278950a57858ad8325
+	63 -> a03c2e481e5ef2a41ec3278950a57858ad8325
+	c16e56d8fddd52ff4d61a6667d56bf0efd64c7
+	63 -> c16e56d8fddd52ff4d61a6667d56bf0efd64c7
+	"0a"
+	objects -> "0a"
+	"0b5f62548ce8481556f13cbbc0fb0757a1750d"
+	"0a" -> "0b5f62548ce8481556f13cbbc0fb0757a1750d"
+	64
+	objects -> 64
+	"41161c80974dc8ab96fc296e685296f4edd60f"
+	64 -> "41161c80974dc8ab96fc296e685296f4edd60f"
+	bcb5fda6b9ce70fc3bc110ff07ec6f3a99824b
+	64 -> bcb5fda6b9ce70fc3bc110ff07ec6f3a99824b
+	90
+	objects -> 90
+	a5c903394039da54f31334ec87e5338dee6c3b
+	90 -> a5c903394039da54f31334ec87e5338dee6c3b
+	d3
+	objects -> d3
+	dd74931c9c0a4f43af9ddd69c276dde2b88c38
+	d3 -> dd74931c9c0a4f43af9ddd69c276dde2b88c38
+	a9ca991325d39f2eb151435fc7cbf080e4ad78
+	d3 -> a9ca991325d39f2eb151435fc7cbf080e4ad78
+	da84f943eef989facca6c6a766215a7ad39adb
+	d3 -> da84f943eef989facca6c6a766215a7ad39adb
+	d4
+	objects -> d4
+	"9e120089f91a2069246938ff3662a8312fa508"
+	d4 -> "9e120089f91a2069246938ff3662a8312fa508"
+	ba
+	objects -> ba
+	"337bb805848d18fedea9be82260e1b420de04b"
+	ba -> "337bb805848d18fedea9be82260e1b420de04b"
+	"1f463e91f4e8bb54a248f3a04bdaaf7c1a24be"
+	ba -> "1f463e91f4e8bb54a248f3a04bdaaf7c1a24be"
+	ff1b82d7d423ba05ccd74fa329b01fe008383f
+	ba -> ff1b82d7d423ba05ccd74fa329b01fe008383f
+	cbec1426548f0499181ed8841758bd167db7ef
+	ba -> cbec1426548f0499181ed8841758bd167db7ef
+	c8863fb229561c9f46580af637046eec143fb5
+	ba -> c8863fb229561c9f46580af637046eec143fb5
+	a0
+	objects -> a0
+	cc06438cf2e8ebb0b8db2245bed488739db23a
+	a0 -> cc06438cf2e8ebb0b8db2245bed488739db23a
+	"405f301b20272c63898bc59a9c696de25df1af"
+	a0 -> "405f301b20272c63898bc59a9c696de25df1af"
+	a7
+	objects -> a7
+	a2d53dde56c80764ad25e4af1619eb1cecc318
+	a7 -> a2d53dde56c80764ad25e4af1619eb1cecc318
+	b8
+	objects -> b8
+	"9289954f2816b560bffd5a253b26118d657e0b"
+	b8 -> "9289954f2816b560bffd5a253b26118d657e0b"
+	b1
+	objects -> b1
+	"3429d653d810502887bc1801a317087e9d0536"
+	b1 -> "3429d653d810502887bc1801a317087e9d0536"
+	dd
+	objects -> dd
+	ea15455a68ca6699775beecc4741648812b5bf
+	dd -> ea15455a68ca6699775beecc4741648812b5bf
+	"75abf2665d875d391b7929e86c41dbe1077ae3"
+	dd -> "75abf2665d875d391b7929e86c41dbe1077ae3"
+	d5
+	objects -> d5
+	"96eeaccfb3ad75a180cdc912c6079e9e91fdeb"
+	d5 -> "96eeaccfb3ad75a180cdc912c6079e9e91fdeb"
+	"00f70c092f7bce95589431b6cb0b8266a3ea16"
+	d5 -> "00f70c092f7bce95589431b6cb0b8266a3ea16"
+	aa
+	objects -> aa
+	"7c9cef0d8614af6c2ee6b96b467d2f65ae519d"
+	aa -> "7c9cef0d8614af6c2ee6b96b467d2f65ae519d"
+	"5bf31b78a5185eae7a115737b8826d8da46141"
+	aa -> "5bf31b78a5185eae7a115737b8826d8da46141"
+	b7
+	objects -> b7
+	"8628bc85dfc4d3c3a9b17695b54c3f319ad055"
+	b7 -> "8628bc85dfc4d3c3a9b17695b54c3f319ad055"
+	a8
+	objects -> a8
+	de8cf581fc77723f53a576fb25e192cfded8ab
+	a8 -> de8cf581fc77723f53a576fb25e192cfded8ab
+	b0
+	objects -> b0
+	"8ec5d01df7fb1f90f5ba2398fbb60532a33264"
+	b0 -> "8ec5d01df7fb1f90f5ba2398fbb60532a33264"
+	"86ac1d60d533d865402170d5ccd4d5e5a0401d"
+	b0 -> "86ac1d60d533d865402170d5ccd4d5e5a0401d"
+	a6
+	objects -> a6
+	"510dc0db22cc85728d3a90a2859587bff3e6a6"
+	a6 -> "510dc0db22cc85728d3a90a2859587bff3e6a6"
+	"81817ceecc036aaafbfdea5c62be9f79132d2a"
+	a6 -> "81817ceecc036aaafbfdea5c62be9f79132d2a"
+	a1
+	objects -> a1
+	b38e4956ddebc8cada1877f0d69f715599f2d1
+	a1 -> b38e4956ddebc8cada1877f0d69f715599f2d1
+	ef
+	objects -> ef
+	e26af62464cc9b2387f41722e33e9f71317c2e
+	ef -> e26af62464cc9b2387f41722e33e9f71317c2e
+	c4
+	objects -> c4
+	d6b58e6206d54788f591a519d31eeb995e5465
+	c4 -> d6b58e6206d54788f591a519d31eeb995e5465
+	e1
+	objects -> e1
+	e1d6ce879e90ba65a71a6c872090a7868906cd
+	e1 -> e1d6ce879e90ba65a71a6c872090a7868906cd
+	cd
+	objects -> cd
+	a9343b54e3879a72e0534c8ada317443ed8d34
+	cd -> a9343b54e3879a72e0534c8ada317443ed8d34
+	afa12bf26942a9e01b2983dbdd0334e4041fd0
+	cd -> afa12bf26942a9e01b2983dbdd0334e4041fd0
+	cc
+	objects -> cc
+	c511f462f509125346a984f944c2d730053ea5
+	cc -> c511f462f509125346a984f944c2d730053ea5
+	"891945260de5ab521e1a514284c65fbf53e207"
+	cc -> "891945260de5ab521e1a514284c65fbf53e207"
+	f0
+	objects -> f0
+	b2fc029c4b71e5194e32d37b032a08214b6e04
+	f0 -> b2fc029c4b71e5194e32d37b032a08214b6e04
+	"494bea00844c73a9f0bc6f5fceaba604f84c19"
+	f0 -> "494bea00844c73a9f0bc6f5fceaba604f84c19"
+	"53221e671e2224f2ffc630a9b30729fe8ba5a8"
+	f0 -> "53221e671e2224f2ffc630a9b30729fe8ba5a8"
+	f7
+	objects -> f7
+	aa49c2becdd131da5bfb41b406c61fc467d61d
+	f7 -> aa49c2becdd131da5bfb41b406c61fc467d61d
+	cba88b369950ef9210c08863189e46ebae9773
+	f7 -> cba88b369950ef9210c08863189e46ebae9773
+	e8
+	objects -> e8
+	babd4bfd42c6e3697d52c64e07f661bc2cb4ab
+	e8 -> babd4bfd42c6e3697d52c64e07f661bc2cb4ab
+	c5
+	objects -> c5
+	cd08816c4975ec650a30368073e0e61495974b
+	c5 -> cd08816c4975ec650a30368073e0e61495974b
+	f6
+	objects -> f6
+	e6baf71c1114c6bfb198c27cc7a75588bf56d1
+	f6 -> e6baf71c1114c6bfb198c27cc7a75588bf56d1
+	e9
+	objects -> e9
+	b3f0df535e7d0d47281e67dfdc082912d2a806
+	e9 -> b3f0df535e7d0d47281e67dfdc082912d2a806
+	"274e894df86bba75e1fd070f593b07e3758fb3"
+	e9 -> "274e894df86bba75e1fd070f593b07e3758fb3"
+	aacc62ade25df9ebf637db080ca8b0f845b5db
+	e9 -> aacc62ade25df9ebf637db080ca8b0f845b5db
+	f1
+	objects -> f1
+	fbb3c622a2097a133cfd0d5a33adfb956c0610
+	f1 -> fbb3c622a2097a133cfd0d5a33adfb956c0610
+	e7
+	objects -> e7
+	"767c17cd34ddf042d4770e842235d5cf083876"
+	e7 -> "767c17cd34ddf042d4770e842235d5cf083876"
+	"30973d6549f16120f82bc589963f3853da0f34"
+	e7 -> "30973d6549f16120f82bc589963f3853da0f34"
+	fd1d88815d3a0e941d8f2fdcfc8439114b5b15
+	e7 -> fd1d88815d3a0e941d8f2fdcfc8439114b5b15
+	cb
+	objects -> cb
+	"3e430d9fdf82c17efafc02db170ca0f5ce02ae"
+	cb -> "3e430d9fdf82c17efafc02db170ca0f5ce02ae"
+	ce
+	objects -> ce
+	"3ab0b3fda39f2570db7fb20e23931204e42bb6"
+	ce -> "3ab0b3fda39f2570db7fb20e23931204e42bb6"
+	"0fd6b3aa862f6b09ac726e3360da971bf9ef12"
+	ce -> "0fd6b3aa862f6b09ac726e3360da971bf9ef12"
+	"2c"
+	objects -> "2c"
+	ef0a3d35eab5e9ddf705d76de0926afe5d00ce
+	"2c" -> ef0a3d35eab5e9ddf705d76de0926afe5d00ce
+	"828be55d82f437f5586fc0bf90a16c33287ba2"
+	"2c" -> "828be55d82f437f5586fc0bf90a16c33287ba2"
+	"2d"
+	objects -> "2d"
+	"89a4fb7126849f63dc3c75d5db35f4f6727714"
+	"2d" -> "89a4fb7126849f63dc3c75d5db35f4f6727714"
+	d73f30fbaf1aca2c0ed9b35be8043441142707
+	"2d" -> d73f30fbaf1aca2c0ed9b35be8043441142707
+	41
+	objects -> 41
+	d5e2e7dc8595a9cb56baa466fb0158819fb2bc
+	41 -> d5e2e7dc8595a9cb56baa466fb0158819fb2bc
+	83
+	objects -> 83
+	d2594899435e143a2a7296c5c3696f37ade486
+	83 -> d2594899435e143a2a7296c5c3696f37ade486
+	"1b"
+	objects -> "1b"
+	ac58c940b870efd1fb626d6e2b150e5633c7fd
+	"1b" -> ac58c940b870efd1fb626d6e2b150e5633c7fd
+	ab69ee72aec15e043f185bfe24cf0953b42953
+	"1b" -> ab69ee72aec15e043f185bfe24cf0953b42953
+	84
+	objects -> 84
+	a341d65dfbb597ec550686e49df01c05001b01
+	84 -> a341d65dfbb597ec550686e49df01c05001b01
+	"4a"
+	objects -> "4a"
+	a04a2964ce111ebd7a2fc7d0c622db1c57fe26
+	"4a" -> a04a2964ce111ebd7a2fc7d0c622db1c57fe26
+	"92e5a53b4e1b27b23c8c3babf33fe235b51867"
+	"4a" -> "92e5a53b4e1b27b23c8c3babf33fe235b51867"
+	23
+	objects -> 23
+	"4b6eee8a4a4e018e80ec6625a0a642b8b5c569"
+	23 -> "4b6eee8a4a4e018e80ec6625a0a642b8b5c569"
+	"4f"
+	objects -> "4f"
+	"8a3679270d55b10e5614bc4226bcaec0180628"
+	"4f" -> "8a3679270d55b10e5614bc4226bcaec0180628"
+	"9d9d12731068c53a73c56e6e84c91bd20f0173"
+	"4f" -> "9d9d12731068c53a73c56e6e84c91bd20f0173"
+	fe5726fd682a719f4d3730bebf132d1d29e9e5
+	"4f" -> fe5726fd682a719f4d3730bebf132d1d29e9e5
+	"8d"
+	objects -> "8d"
+	c997aea0426816cdd52f2524215a55a3c78703
+	"8d" -> c997aea0426816cdd52f2524215a55a3c78703
+	"6309b1c4f3dcb0db152ead892f12fd8d044a2d"
+	"8d" -> "6309b1c4f3dcb0db152ead892f12fd8d044a2d"
+	15
+	objects -> 15
+	"935fea33c9ab1c584a0de7c52b891c29490e20"
+	15 -> "935fea33c9ab1c584a0de7c52b891c29490e20"
+	12
+	objects -> 12
+	e9c5309a4b25e63e96faa5356d9d96daeaf389
+	12 -> e9c5309a4b25e63e96faa5356d9d96daeaf389
+	bf5639c6d247817971e88c2ab4262c004273fa
+	12 -> bf5639c6d247817971e88c2ab4262c004273fa
+	71
+	objects -> 71
+	"4f735dd7d3f060c58452e9bfd3bcf957a4e1b7"
+	71 -> "4f735dd7d3f060c58452e9bfd3bcf957a4e1b7"
+	"67cb0912053a6afc4b136a532944c96e2284d5"
+	71 -> "67cb0912053a6afc4b136a532944c96e2284d5"
+	76
+	objects -> 76
+	b826b60c271f47bc21a73e2d32f81aeea93f1d
+	76 -> b826b60c271f47bc21a73e2d32f81aeea93f1d
+	"492787cdd12f342b24251382334372ef8d5803"
+	76 -> "492787cdd12f342b24251382334372ef8d5803"
+	"6e7424205a42753fd22085691a976ef58f3117"
+	76 -> "6e7424205a42753fd22085691a976ef58f3117"
+	"72a26d7006ee72c92824c64efae8b53bc51226"
+	76 -> "72a26d7006ee72c92824c64efae8b53bc51226"
+	b8822484e29c225f2147940d7fcbbaa45cdc75
+	76 -> b8822484e29c225f2147940d7fcbbaa45cdc75
+	"1c"
+	objects -> "1c"
+	f5b04af6713bd003a2361a93f732be4764788b
+	"1c" -> f5b04af6713bd003a2361a93f732be4764788b
+	de8b43cd6587150efdd09110446ec5ce4f05c5
+	"1c" -> de8b43cd6587150efdd09110446ec5ce4f05c5
+	82
+	objects -> 82
+	"71d17da55bd9850c3d31374ecb6b0e7cae31f9"
+	82 -> "71d17da55bd9850c3d31374ecb6b0e7cae31f9"
+	"059e4dc09b9b862e00dcade3ee3f01a3336051"
+	82 -> "059e4dc09b9b862e00dcade3ee3f01a3336051"
+	40
+	objects -> 40
+	"09c15b5ae4315616a2da79e57db75d08751ed8"
+	40 -> "09c15b5ae4315616a2da79e57db75d08751ed8"
+	b0f6bfc0228934e0c9ce60306dcfc8af0d4174
+	40 -> b0f6bfc0228934e0c9ce60306dcfc8af0d4174
+	"2e"
+	objects -> "2e"
+	"2402f13aed41d2e17a491804c227fe21289050"
+	"2e" -> "2402f13aed41d2e17a491804c227fe21289050"
+	ad5f51a8ae458be4d9f746a90a19e129d597bf
+	"2e" -> ad5f51a8ae458be4d9f746a90a19e129d597bf
+	78
+	objects -> 78
+	"8c818be68dc882174a9ecf557385d5fbc2ebaf"
+	78 -> "8c818be68dc882174a9ecf557385d5fbc2ebaf"
+	"4da88e240f8e5e277eef684070938ac1a8106e"
+	78 -> "4da88e240f8e5e277eef684070938ac1a8106e"
+	"8b"
+	objects -> "8b"
+	"37e3058d29932394e21627c32a380da1bbecf0"
+	"8b" -> "37e3058d29932394e21627c32a380da1bbecf0"
+	"4b31faafe665e7b80a5626202f6308ced9d139"
+	"8b" -> "4b31faafe665e7b80a5626202f6308ced9d139"
+	13
+	objects -> 13
+	beda4dd304955cab0e4feeaf3944e80d41fd78
+	13 -> beda4dd304955cab0e4feeaf3944e80d41fd78
+	"7f"
+	objects -> "7f"
+	"6c555057148566615949a79ab29711f69107af"
+	"7f" -> "6c555057148566615949a79ab29711f69107af"
+	"7a"
+	objects -> "7a"
+	c8dff95d1134e5a51184eaee3e28de48f2a361
+	"7a" -> c8dff95d1134e5a51184eaee3e28de48f2a361
+	"3c5dc6a09249445901219c117a96fb6d439092"
+	"7a" -> "3c5dc6a09249445901219c117a96fb6d439092"
+	"21287770daa224189dce1505ada1d088236f76"
+	"7a" -> "21287770daa224189dce1505ada1d088236f76"
+	b895b9ee725d7dd2674730e2fc8c971ddb02b2
+	"7a" -> b895b9ee725d7dd2674730e2fc8c971ddb02b2
+	f50d4029419bfcb74b9f183a2cbff36eac57ea
+	"7a" -> f50d4029419bfcb74b9f183a2cbff36eac57ea
+	info
+	".git" -> info
+	exclude
+	info -> exclude
+	logs
+	".git" -> logs
+	refs
+	logs -> refs
+	heads
+	refs -> heads
+	main
+	heads -> main
+	remotes
+	refs -> remotes
+	origin
+	remotes -> origin
+	HEAD
+	origin -> HEAD
+	main
+	origin -> main
+	HEAD
+	logs -> HEAD
+	hooks
+	".git" -> hooks
+	"commit-msg.sample"
+	hooks -> "commit-msg.sample"
+	"pre-rebase.sample"
+	hooks -> "pre-rebase.sample"
+	"sendemail-validate.sample"
+	hooks -> "sendemail-validate.sample"
+	"pre-commit.sample"
+	hooks -> "pre-commit.sample"
+	"applypatch-msg.sample"
+	hooks -> "applypatch-msg.sample"
+	"fsmonitor-watchman.sample"
+	hooks -> "fsmonitor-watchman.sample"
+	"pre-receive.sample"
+	hooks -> "pre-receive.sample"
+	"prepare-commit-msg.sample"
+	hooks -> "prepare-commit-msg.sample"
+	"post-update.sample"
+	hooks -> "post-update.sample"
+	"pre-merge-commit.sample"
+	hooks -> "pre-merge-commit.sample"
+	"pre-applypatch.sample"
+	hooks -> "pre-applypatch.sample"
+	"pre-push.sample"
+	hooks -> "pre-push.sample"
+	"update.sample"
+	hooks -> "update.sample"
+	"push-to-checkout.sample"
+	hooks -> "push-to-checkout.sample"
+	refs
+	".git" -> refs
+	heads
+	refs -> heads
+	main
+	heads -> main
+	tags
+	refs -> tags
+	remotes
+	refs -> remotes
+	origin
+	remotes -> origin
+	HEAD
+	origin -> HEAD
+	main
+	origin -> main
+	branches
+	".git" -> branches
+	".DS_Store"
+	".git" -> ".DS_Store"
+	config
+	".git" -> config
+	HEAD
+	".git" -> HEAD
+	description
+	".git" -> description
+	index
+	".git" -> index
+	"packed-refs"
+	".git" -> "packed-refs"
+	COMMIT_EDITMSG
+	".git" -> COMMIT_EDITMSG
+	FETCH_HEAD
+	".git" -> FETCH_HEAD
+	".DS_Store"
+	"Social-Media-Sentiment-Analysis" -> ".DS_Store"
+	LICENSE
+	"Social-Media-Sentiment-Analysis" -> LICENSE
+	"directory-graph"
+	"Social-Media-Sentiment-Analysis" -> "directory-graph"
+	"README.md"
+	"Social-Media-Sentiment-Analysis" -> "README.md"
+}
