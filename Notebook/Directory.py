@@ -1,6 +1,7 @@
 import os
 from graphviz import Digraph
 os.getcwd()
+'''
 def add_nodes_edges(dot, path, parent=None):
     for root, dirs, files in os.walk(path):
         for d in dirs:
@@ -19,6 +20,7 @@ def create_directory_graph(path):
     root = os.path.basename(path)
     dot.node(root, root)
     add_nodes_edges(dot, path, root)
-    dot.render('directory-graph', format='png')
+    dot.render('project-directory-graph', format='png')
 
 create_directory_graph('/Users/girimanoharv/Documents/Social-Media-Sentiment-Analysis')
+'''
