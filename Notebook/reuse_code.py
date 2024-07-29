@@ -21,8 +21,8 @@ def replace_filenames_and_save_new(script_path, train_filename, dev_filename, te
     except Exception as e:
         print(f"An error occurred: {e}")
 
-old_emotion = 'fear'
-new_emotion = 'joy'
+old_emotion = 'joy'
+new_emotion = 'sadness'
 script_path = f'/Users/girimanoharv/Documents/Social-Media-Sentiment-Analysis/Notebook/{old_emotion}/ml_classification_{old_emotion}.py'
 train_filename = f'training/EI-oc-En-{new_emotion}-train.txt'
 dev_filename = f'development/2018-EI-oc-En-{new_emotion}-dev.txt'
